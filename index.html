@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TicTacToe</h1>
+        <p>Let's play a game!</p>
+        <select name="player-options" id="player-options">
+            <option value="easy">Easy (vs Computer)</option>
+            <option value="hard">Hard (vs Computer)</option>
+            <option value="play with a friend">Play with a Friend</option>
+        </select>
+        
+    </header>
+    <main>
+        <div class="start-screen">
+            <h2>Choose a Player</h2>
+            <button type="button" id="x-button">Player: X</button> <button type="button" id="o-button">Player: O</button>
+        </div>
+
+
+        <div class="playground-display">
+        <p class="current-game-count">PLAYER X: <span id="x-value">0</span></p> <p class="current-game-count">PLAYER O: <span id="o-value">0</span></p>
+        <div class="playground-container">
+
+            <div class="playground-input" id="1"></div>
+            <div class="playground-input" id="2"></div>
+            <div class="playground-input" id="3"></div>
+ 
+            <div class="playground-input" id="4"></div>
+            <div class="playground-input" id="5"></div>
+            <div class="playground-input" id="6"></div>
+ 
+            <div class="playground-input" id="7"></div>
+            <div class="playground-input" id="8"></div>
+            <div class="playground-input" id="9"></div>
+
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
